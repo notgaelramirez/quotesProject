@@ -17,7 +17,9 @@ function App() {
       random = {random}
       />
 
-      
+      <video className='video__background' muted autoPlay loop>
+        <source src='/src/assets/thunderstorm.mp4'/>
+      </video>
       {/* <div className="layer" style={{'backgroundColor': `${colors[random]}`}}></div> */}
     </div>
   )
