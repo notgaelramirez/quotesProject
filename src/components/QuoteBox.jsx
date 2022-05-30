@@ -13,7 +13,7 @@ const QuoteBox = ({colors, random}) => {
 
   let [quote, setQuote] = useState(quoteFile[0].quote)
   let [author, setAuthor] = useState(quoteFile[0].author)
-  let [color, setColor] = useState(colors[randomColor])
+  let [color, setColor] = useState(colors[0])
   const background = {
     backgroundColor: color
   }
