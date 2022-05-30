@@ -5,7 +5,9 @@ function App() {
 
   const colors = ['blue', 'green', 'cadetblue', 'red', 'orange', 'purple', 'brown', 'blueviolet', 'tomato', 'darkblue']
 
-  const random = Math.round(Math.random() * colors.length)
+  const random = array => {
+    return Math.floor(Math.random() * array.length)
+  }
 
   return (
     <div className="App">
@@ -19,7 +21,7 @@ function App() {
         <source src='./src/assets/thunderstorm.mp4'
         type='video/mp4'/>
       </video>
-      <div className="layer" style={{'backgroundColor': `${colors[random]}`}}></div>
+      {/* <div className="layer" style={{'backgroundColor': `${colors[random]}`}}></div> */}
     </div>
   )
 }
