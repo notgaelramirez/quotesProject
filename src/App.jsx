@@ -1,5 +1,6 @@
 import './App.css'
 import QuoteBox from './components/QuoteBox'
+import thunderVideo from './assets/thunderstorm.mp4'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
       />
 
       <video className='video__background' muted autoPlay loop>
-        <source src='/src/assets/thunderstorm.mp4'/>
+        <source src={thunderVideo}/>
       </video>
       {/* stays here */}
       {/* <div className="layer" style={{'backgroundColor': `${colors[random]}`}}></div> */}
