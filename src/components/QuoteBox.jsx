@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import quoteFile from '/home/gael/Desktop/React/quotesProject/src/json/quotes.json'
+import quoteFile from '/src/json/quotes.json'
 
 
 const QuoteBox = ({colors, random}) => {
