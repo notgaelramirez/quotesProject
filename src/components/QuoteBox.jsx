@@ -17,6 +17,7 @@ const QuoteBox = ({colors, random}) => {
   const background = {
     backgroundColor: color
   }
+
   const textColor = {
     color: color
   }
